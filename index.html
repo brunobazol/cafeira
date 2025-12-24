@@ -255,5 +255,14 @@
 
 </div>
 
+    <script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("/cafeira/sw.js", { scope: "/cafeira/" });
+    });
+  }
+</script>
+
 </body>
 </html>
+
