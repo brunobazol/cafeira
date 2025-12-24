@@ -1,7 +1,8 @@
 {
   "name": "Cafeira",
   "short_name": "Cafeira",
-  "start_url": "index.html",
+  "start_url": "/cafeira/",
+  "scope": "/cafeira/",
   "display": "standalone",
   "background_color": "#0F0F0F",
   "theme_color": "#7A4A2E",
@@ -18,3 +19,5 @@
     }
   ]
 }
+
+
